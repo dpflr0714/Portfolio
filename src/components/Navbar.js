@@ -1,16 +1,12 @@
 import React , { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Link } from 'react-router-dom'
-import './Navbar.css'
 import * as AiIcons from 'react-icons/ai'
 import * as IoIcons from 'react-icons/io'
-
-
 import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -80,9 +76,9 @@ export const Navbar = () => {
 
       return (
         <div>
-          {['menu'].map((anchor) => (
+          {['left'].map((anchor) => (
             <React.Fragment key={anchor}>
-              <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+              <Button onClick={toggleDrawer(anchor, true)}>Menu</Button>
               <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
                 {list(anchor)}
               </Drawer>

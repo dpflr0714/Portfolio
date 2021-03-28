@@ -12,7 +12,7 @@ body {
   padding: 0;
 }
 
-.home, .projects ,.resume , .experience{
+.home,.resume{
   display: flex;
   height: 90vh;
   align-items: center;

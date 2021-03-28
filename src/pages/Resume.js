@@ -6,7 +6,11 @@ const Resume = () => {
 
     return (
         <div className="resume">
-            <p>Here is my resume if you want to check it out!</p>
+            <Paper>
+                <Typography variant='h3'>
+                    Here is my resume if you want to check it out!
+                </Typography>
+            </Paper>
             <a href= {pdf} target='_blank'>Click Here</a>
         </div>
     )

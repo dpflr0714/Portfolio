@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 const Experience = () => {
     return (
-        <div className="experience">
             <Grid container spacing={10} direction='column' justify='center' alignItems='center'>
                 <Grid item xs={12} md={6}>
                     <Paper>
@@ -68,7 +67,6 @@ const Experience = () => {
                     </Paper>
                 </Grid>
             </Grid>
-        </div>
     )
 }
 

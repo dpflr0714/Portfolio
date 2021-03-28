@@ -24,7 +24,7 @@ const Projects = () => {
                         <Typography variant='body1'>A web application that uses Javascript, HTML, and CSS to allow users to express themselves using
                         a form of art. 
                         This was my first project that I created using React library. I was able to get familiar with components in React and also optimizing codes
-                        in a way where you can reuse them and maintain them easier. Click on the link for </Typography>
+                        in a way where you can reuse them and maintain them easier. Click on the link for <Link target='_blank' to={'//dpflr0714.github.io/Calculator/'}>live demo.</Link></Typography>
                     </Paper>
                 </Grid>
                 <Grid item xs={12} md={6}>
@@ -33,7 +33,7 @@ const Projects = () => {
                         <Typography variant='body1'>A web application that uses Javascript, HTML, and CSS to allow users to express themselves using
                         a form of art. 
                         This was my first project that I created using React library. I was able to get familiar with components in React and also optimizing codes
-                        in a way where you can reuse them and maintain them easier. Click on the link for </Typography>
+                        in a way where you can reuse them and maintain them easier. Click on the link for <Link target='_blank' to={'//dpflr0714.github.io/Etch-A-Sketch/'}>live demo.</Link></Typography>
                     </Paper>
                 </Grid>
             </Grid>
